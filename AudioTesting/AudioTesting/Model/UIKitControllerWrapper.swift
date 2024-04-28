@@ -10,7 +10,7 @@ import UIKit
 import SwiftUI
 
 struct UIKitViewControllerWrapper: UIViewControllerRepresentable {
-    @EnvironmentObject var handler: ViewControllerHandler
+    @EnvironmentObject var handler: ViewControllerManager
     
     func makeUIViewController(context: Context) -> ViewController {
         let viewController = ViewController()
@@ -19,5 +19,6 @@ struct UIKitViewControllerWrapper: UIViewControllerRepresentable {
     }
     
     func updateUIViewController(_ uiViewController: ViewController, context: Context) {
+        // unnecessary due to static 100 BPM
     }
 }

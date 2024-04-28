@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject private var handler = ViewControllerHandler()
+    @StateObject private var handler = ViewControllerManager()
 
     var body: some View {
         VStack {
             UIKitViewControllerWrapper()
                 .environmentObject(handler)
-                .edgesIgnoringSafeArea(.all) // Integrates the UIKit view.
+                .edgesIgnoringSafeArea(.all)
             
             Button("Play/Stop") {
                 handler.toggleTempo()

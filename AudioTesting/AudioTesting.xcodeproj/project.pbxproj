@@ -100,13 +100,11 @@
 		E9FDFAD92BDED89A008592CA /* AudioTesting */ = {
 			isa = PBXGroup;
 			children = (
-				E9FDFADA2BDED89A008592CA /* AudioTestingApp.swift */,
-				E9FDFADC2BDED89A008592CA /* ContentView.swift */,
+				E9FDFB0A2BDED9C2008592CA /* Model */,
+				E9FDFB0C2BDED9CD008592CA /* Views */,
+				E9FDFB0B2BDED9C7008592CA /* ViewModel */,
 				E9FDFADE2BDED89B008592CA /* Assets.xcassets */,
 				E9FDFAE02BDED89B008592CA /* Preview Content */,
-				E9FDFB042BDED8F7008592CA /* UIKitControllerWrapper.swift */,
-				E9FDFB062BDED930008592CA /* ViewControllerManager.swift */,
-				E9FDFB082BDED959008592CA /* ViewController.swift */,
 			);
 			path = AudioTesting;
 			sourceTree = "<group>";
@@ -134,6 +132,32 @@
 				E9FDFAF72BDED89C008592CA /* AudioTestingUITestsLaunchTests.swift */,
 			);
 			path = AudioTestingUITests;
+			sourceTree = "<group>";
+		};
+		E9FDFB0A2BDED9C2008592CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9FDFB042BDED8F7008592CA /* UIKitControllerWrapper.swift */,
+				E9FDFB082BDED959008592CA /* ViewController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9FDFB0B2BDED9C7008592CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E9FDFB062BDED930008592CA /* ViewControllerManager.swift */,
+				E9FDFADA2BDED89A008592CA /* AudioTestingApp.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E9FDFB0C2BDED9CD008592CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9FDFADC2BDED89A008592CA /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

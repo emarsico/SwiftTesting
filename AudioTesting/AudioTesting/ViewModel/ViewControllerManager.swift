@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ViewControllerHandler: ObservableObject {
+class ViewControllerManager: ObservableObject {
     var viewController: ViewController?
 
     func toggleTempo() {
