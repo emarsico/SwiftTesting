@@ -15,7 +15,21 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupAudioSession()
         setupAudioPlayer()
+    }
+
+    
+    // Modifies AVAudioSession settings to allow for audio while in silent mode
+    func setupAudioSession() {
+        do {
+            // Set the audio session category to playback
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [])
+            // Activate the audio session
+            try AVAudioSession.sharedInstance().setActive(true)
+        } catch {
+            print("Failed to set up audio session: \(error)")
+        }
     }
     
     func setupAudioPlayer() {

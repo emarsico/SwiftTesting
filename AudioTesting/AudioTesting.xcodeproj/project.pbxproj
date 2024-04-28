@@ -17,6 +17,7 @@
 		E9FDFB052BDED8F7008592CA /* UIKitControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDFB042BDED8F7008592CA /* UIKitControllerWrapper.swift */; };
 		E9FDFB072BDED930008592CA /* ViewControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDFB062BDED930008592CA /* ViewControllerManager.swift */; };
 		E9FDFB092BDED959008592CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDFB082BDED959008592CA /* ViewController.swift */; };
+		E9FDFB0E2BDEEF01008592CA /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9FDFB0D2BDEEF01008592CA /* beep.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		E9FDFB042BDED8F7008592CA /* UIKitControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitControllerWrapper.swift; sourceTree = "<group>"; };
 		E9FDFB062BDED930008592CA /* ViewControllerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerManager.swift; sourceTree = "<group>"; };
 		E9FDFB082BDED959008592CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9FDFB0D2BDEEF01008592CA /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		E9FDFAD92BDED89A008592CA /* AudioTesting */ = {
 			isa = PBXGroup;
 			children = (
+				E9FDFB0D2BDEEF01008592CA /* beep.wav */,
 				E9FDFB0A2BDED9C2008592CA /* Model */,
 				E9FDFB0C2BDED9CD008592CA /* Views */,
 				E9FDFB0B2BDED9C7008592CA /* ViewModel */,
@@ -264,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FDFB0E2BDEEF01008592CA /* beep.wav in Resources */,
 				E9FDFAE22BDED89B008592CA /* Preview Assets.xcassets in Resources */,
 				E9FDFADF2BDED89B008592CA /* Assets.xcassets in Resources */,
 			);
