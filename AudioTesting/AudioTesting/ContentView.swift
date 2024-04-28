@@ -8,16 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var handler = ViewControllerHandler()
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            UIKitViewControllerWrapper()
+                .environmentObject(handler)
+                .edgesIgnoringSafeArea(.all) // Integrates the UIKit view.
+            
+            Button("Play/Stop") {
+                handler.toggleTempo()
+            }
+            .padding()
+            .background(Color.blue)
+            .foregroundColor(.white)
+            .clipShape(Capsule())
         }
-        .padding()
     }
 }
+
 
 #Preview {
     ContentView()

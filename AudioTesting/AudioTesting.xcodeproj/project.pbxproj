@@ -14,6 +14,9 @@
 		E9FDFAEC2BDED89C008592CA /* AudioTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDFAEB2BDED89C008592CA /* AudioTestingTests.swift */; };
 		E9FDFAF62BDED89C008592CA /* AudioTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDFAF52BDED89C008592CA /* AudioTestingUITests.swift */; };
 		E9FDFAF82BDED89C008592CA /* AudioTestingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDFAF72BDED89C008592CA /* AudioTestingUITestsLaunchTests.swift */; };
+		E9FDFB052BDED8F7008592CA /* UIKitControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDFB042BDED8F7008592CA /* UIKitControllerWrapper.swift */; };
+		E9FDFB072BDED930008592CA /* ViewControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDFB062BDED930008592CA /* ViewControllerManager.swift */; };
+		E9FDFB092BDED959008592CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDFB082BDED959008592CA /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		E9FDFAF12BDED89C008592CA /* AudioTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FDFAF52BDED89C008592CA /* AudioTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTestingUITests.swift; sourceTree = "<group>"; };
 		E9FDFAF72BDED89C008592CA /* AudioTestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTestingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9FDFB042BDED8F7008592CA /* UIKitControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitControllerWrapper.swift; sourceTree = "<group>"; };
+		E9FDFB062BDED930008592CA /* ViewControllerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerManager.swift; sourceTree = "<group>"; };
+		E9FDFB082BDED959008592CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				E9FDFADC2BDED89A008592CA /* ContentView.swift */,
 				E9FDFADE2BDED89B008592CA /* Assets.xcassets */,
 				E9FDFAE02BDED89B008592CA /* Preview Content */,
+				E9FDFB042BDED8F7008592CA /* UIKitControllerWrapper.swift */,
+				E9FDFB062BDED930008592CA /* ViewControllerManager.swift */,
+				E9FDFB082BDED959008592CA /* ViewController.swift */,
 			);
 			path = AudioTesting;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FDFB092BDED959008592CA /* ViewController.swift in Sources */,
+				E9FDFB072BDED930008592CA /* ViewControllerManager.swift in Sources */,
 				E9FDFADD2BDED89A008592CA /* ContentView.swift in Sources */,
 				E9FDFADB2BDED89A008592CA /* AudioTestingApp.swift in Sources */,
+				E9FDFB052BDED8F7008592CA /* UIKitControllerWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
